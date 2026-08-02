@@ -1,9 +1,30 @@
 aid: the-black-tux
 name: The Black Tux
-description: The Black Tux is a company surfaced as a portfolio company of menlo-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  The Black Tux is an online formalwear company offering premium suit and tuxedo
+  rentals and purchases for weddings and formal events. Founded in 2013 and
+  headquartered in Santa Monica, California, it pairs a direct-to-consumer online
+  store with roughly 50 physical showrooms nationwide, home try-on, group wedding
+  coordination with party pricing, free shipping over $200, and a perfect-fit
+  guarantee. The storefront runs on Shopify; The Black Tux does not publish a
+  first-party developer API. The only machine-readable surface on the domain is
+  Shopify's managed Customer Account identity service (OIDC / OAuth authorization
+  server discovery). This profile was surfaced as a portfolio company of
+  Menlo Ventures and enriched with the verifiable public identity and web
+  properties the company genuinely publishes.
 url: https://raw.githubusercontent.com/api-evangelist/the-black-tux/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.shopify.com/s/files/1/0705/6071/0947/files/Promo_Social_1200x628_a90379ac-6a42-4fdb-b739-30d203bff8e7.png?v=1760728845
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +33,50 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Formalwear
+- Ecommerce
+- Retail
+- Rental
+- Weddings
+- Apparel
+- Direct to Consumer
 apis: []
+common:
+- type: DomainSecurity
+  url: security/the-black-tux-domain-security.yml
+- type: Website
+  url: https://theblacktux.com/
+- type: GettingStarted
+  name: How Renting Works
+  url: https://theblacktux.com/pages/how-renting-works
+- type: Support
+  name: Contact Us
+  url: https://theblacktux.com/pages/contact-us
+- type: Blog
+  name: The Journal
+  url: https://theblacktux.com/blogs/news
+- type: SignUp
+  name: Sign in / Create account
+  url: https://theblacktux.com/account/login
+- type: TermsOfService
+  url: https://theblacktux.com/pages/terms-of-service
+- type: PrivacyPolicy
+  url: https://theblacktux.com/pages/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/TheBlackTuxCorp
+- type: WellKnown
+  name: Well-known discovery surface
+  url: well-known/the-black-tux-well-known.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1

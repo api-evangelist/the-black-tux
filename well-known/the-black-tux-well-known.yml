@@ -1,0 +1,28 @@
+generated: '2026-07-21'
+method: searched
+source: https://theblacktux.com/.well-known/
+host: https://theblacktux.com
+note: >-
+  The Black Tux runs a Shopify-hosted storefront. The openid-configuration and
+  oauth-authorization-server documents served at this domain are Shopify's
+  Customer Account service (issuer https://shopify.com/authentication/70560710947,
+  token/authorization endpoints under account.theblacktux.com), i.e. managed
+  consumer-account identity infrastructure — not a first-party developer API from
+  The Black Tux. Captured verbatim because they are genuinely served on the domain.
+documents:
+  - path: /.well-known/openid-configuration
+    status: 200
+    content_type: application/json
+    file: the-black-tux-openid-configuration.json
+    service: Shopify Customer Account (OIDC discovery)
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    content_type: application/json
+    file: the-black-tux-oauth-authorization-server.json
+    service: Shopify Customer Account (RFC 8414 authorization-server metadata)
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
