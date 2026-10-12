@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/the-black-tux/integrations
+- https://n8n.io/integrations/the-black-tux/
+- https://composio.dev/toolkits/the-black-tux
+- https://monid.ai/tools/the-black-tux
+checked:
+- https://composio.dev/toolkits/the-black-tux
+- https://monid.ai/tools/the-black-tux
+- https://n8n.io/integrations/the-black-tux/
+- https://zapier.com/apps/the-black-tux/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
